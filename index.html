@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to Sri Lanka — a premium travel guide to destinations, culture, food, wildlife, beaches and unforgettable island adventures." />
+  <title>Welcome to Sri Lanka | Island of Paradise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+<base target="_blank">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a href="#home" class="brand" aria-label="Welcome to Sri Lanka home">
+        <span class="brand-mark"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span>
+        <span>
+          <strong>Welcome to Sri Lanka</strong>
+          <small>Island of Paradise</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-controls="primaryMenu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="primaryMenu">
+        <ul class="nav-list">
+          <li><a class="nav-link active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#destinations">Destinations</a></li>
+          <li><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link" href="#culture-food">Culture &amp; Food</a></li>
+          <li><a class="nav-link" href="#travel-tips">Travel Tips</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#planner" class="btn btn-primary nav-cta">Plan Your Trip</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-label="Sri Lanka hero section">
+      <img class="hero-bg" src="https://kimi-web-img.kimi.ai/img/rhttours.com/e0daccb1b4801f0e52cae865fb3222adf9895830.jpg" alt="Blue train crossing the Nine Arches Bridge through lush Sri Lankan hills" />
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-content reveal">
+        <p class="eyebrow">The Pearl of the Indian Ocean</p>
+        <h1><span>Welcome to</span> SRI LANKA</h1>
+        <p class="hero-subtitle">Discover breathtaking landscapes, rich culture, golden beaches and unforgettable adventures.</p>
+        <div class="hero-actions">
+          <a href="#destinations" class="btn btn-light">Explore Destinations <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a href="#planner" class="btn btn-outline-light">Plan Your Trip</a>
+        </div>
+      </div>
+      <a href="#destinations" class="scroll-indicator" aria-label="Scroll down to destinations">
+        <span class="mouse"><span></span></span>
+        <small>Scroll Down</small>
+      </a>
+    </section>
+
+    <section class="section destinations-section" id="destinations">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Destinations</p>
+          <h2>Explore the Best Places in Sri Lanka</h2>
+          <p>From ancient cities to misty mountains and tropical beaches, discover the destinations that make Sri Lanka unforgettable.</p>
+        </div>
+
+        <div class="destination-grid" id="destinationGrid">
+          <article class="destination-card reveal" data-categories="culture adventure">
+            <div class="destination-image">
+              <img src="https://kimi-web-img.kimi.ai/img/s3-cdn.designerjourneys.com/f3582fc401067adc0c40655f36bfde20f0631df4.jpg" alt="Sigiriya rock fortress rising above green jungle" loading="lazy">
+            </div>
+            <div class="destination-body">
+              <span class="location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Central Province</span>
+              <h3>Sigiriya</h3>
+              <p>Ancient rock fortress with royal ruins, frescoes and panoramic jungle views.</p>
+              <a href="#contact" class="text-link">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="destination-card reveal" data-categories="nature adventure">
+            <div class="destination-image">
+              <img src="https://kimi-web-img.kimi.ai/img/static.globevoyaging.com/935311dffc304d3c236046718159cee2a0500c5b.webp" alt="Scenic Sri Lankan train traveling beside tea plantations near Ella" loading="lazy">
+            </div>
+            <div class="destination-body">
+              <span class="location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Uva Province</span>
+              <h3>Ella</h3>
+              <p>Mountains, tea plantations, waterfalls and one of the world’s most scenic train rides.</p>
+              <a href="#contact" class="text-link">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="destination-card reveal" data-categories="culture food">
+            <div class="destination-image">
+              <img src="https://kimi-web-img.kimi.ai/img/overatours.com/7bae7545dedd35b8e1968d6989e1f5d7a0268881.jpg" alt="Temple of the Sacred Tooth Relic in Kandy" loading="lazy">
+            </div>
+            <div class="destination-body">
+              <span class="location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Central Province</span>
+              <h3>Kandy</h3>
+              <p>Sacred temples, traditional dance, lakeside beauty and the cultural heart of the island.</p>
+              <a href="#contact" class="text-link">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="destination-card reveal" data-categories="nature food">
+            <div class="destination-image">
+              <img src="https://kimi-web-img.kimi.ai/img/www.travelandtourworld.com/46bd8811a466c8a2b8eb27abde297540128fbe54.jpg" alt="Tea estate and waterfall in the cool highlands of Nuwara Eliya" loading="lazy">
+            </div>
+            <div class="destination-body">
+              <span class="location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Central Highlands</span>
+              <h3>Nuwara Eliya</h3>
+              <p>Cool climate, rolling tea estates, waterfalls and charming colonial-era streets.</p>
+              <a href="#contact" class="text-link">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="destination-card reveal" data-categories="beach wildlife food">
+            <div class="destination-image">
+              <img src="https://kimi-web-img.kimi.ai/img/yalawild.com/34fd811c9601111f15a37d68fdbcee1b57ebf3ca.jpg" alt="Palm-fringed golden beach at Mirissa on Sri Lanka's southern coast" loading="lazy">
+            </div>
+            <div class="destination-body">
+              <span class="location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Southern Coast</span>
+              <h3>Mirissa</h3>
+              <p>Golden beaches, palm-tree viewpoints, surfing and unforgettable whale watching.</p>
+              <a href="#contact" class="text-link">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+
+          <article class="destination-card reveal" data-categories="beach culture food">
+            <div class="destination-image">
+              <img src="https://kimi-web-img.kimi.ai/img/media-cdn.tripadvisor.com/b87bdfbcf8bc246cbfa0b02951aebc9258d17e15.jpg" alt="Galle Fort lighthouse at sunset on the Sri Lankan coast" loading="lazy">
+            </div>
+            <div class="destination-body">
+              <span class="location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Southern Province</span>
+              <h3>Galle</h3>
+              <p>Historic fort walls, ocean sunsets, boutique cafés and timeless coastal charm.</p>
+              <a href="#contact" class="text-link">Explore <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section planner-section" id="planner">
+      <div class="container planner-grid">
+        <div class="planner-copy reveal">
+          <p class="eyebrow">Trip Planner</p>
+          <h2>Plan Your Sri Lanka Trip</h2>
+          <p class="section-intro">What kind of experience are you looking for?</p>
+
+          <div class="filter-buttons" role="group" aria-label="Filter destinations by travel style">
+            <button class="filter-btn active" data-filter="nature"><span>??</span> Nature</button>
+            <button class="filter-btn" data-filter="beach"><span>???</span> Beaches</button>
+            <button class="filter-btn" data-filter="adventure"><span>??</span> Adventure</button>
+            <button class="filter-btn" data-filter="culture"><span>???</span> Culture</button>
+            <button class="filter-btn" data-filter="food"><span>??</span> Food</button>
+            <button class="filter-btn" data-filter="wildlife"><span>??</span> Wildlife</button>
+          </div>
+
+          <div class="filter-result" id="filterResult" aria-live="polite">
+            Showing destinations that match <strong>Nature</strong>.
+          </div>
+
+          <div class="nature-spots reveal">
+            <div class="nature-spots-heading">
+              <h3>Top Nature Spots for You</h3>
+              <span><i class="fa-solid fa-leaf" aria-hidden="true"></i></span>
+            </div>
+            <a href="#gallery" class="spot-item">
+              <img src="https://kimi-web-img.kimi.ai/img/cdn.kimkim.com/586bbe94f8444c43f9ddd82c829197e2eba4886c.jpg" alt="Blue train winding through tea country near Ella" loading="lazy">
+              <span><strong>Ella</strong><small>Waterfalls, hikes and iconic train views.</small></span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#gallery" class="spot-item">
+              <img src="https://kimi-web-img.kimi.ai/img/www.travelandtourworld.com/46bd8811a466c8a2b8eb27abde297540128fbe54.jpg" alt="Lush highland landscape with a waterfall" loading="lazy">
+              <span><strong>Horton Plains</strong><small>Cloud forests and World’s End viewpoints.</small></span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#gallery" class="spot-item">
+              <img src="https://kimi-web-img.kimi.ai/img/ceylonroute.com/e9132f09bd28eb86590ee516a27f2991fb137887.jpg" alt="Dramatic mountain scenery in Sri Lanka's hill country" loading="lazy">
+              <span><strong>Knuckles Mountain Range</strong><small>Misty trails, biodiversity and remote villages.</small></span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#gallery" class="spot-item">
+              <img src="https://kimi-web-img.kimi.ai/img/www.bluelankatours.com/7b87721f287563b459999ab6d2b4da89074c8d62.jpg" alt="Leopards resting on a rock in Yala National Park" loading="lazy">
+              <span><strong>Yala National Park</strong><small>Leopards, elephants and safari adventures.</small></span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="planner-visual reveal">
+          <img src="https://kimi-web-img.kimi.ai/img/www.authenticindiatours.com/2c4ebc59289cb728bfc830c464d6ae118963bd06.jpg" alt="Whale watching boats off the southern coast of Sri Lanka" loading="lazy">
+          <div class="floating-card">
+            <i class="fa-solid fa-compass" aria-hidden="true"></i>
+            <div><strong>Tailor-made journeys</strong><small>Beaches, culture, wildlife &amp; mountains</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section feature-section" id="culture-food">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Culture, Food &amp; Travel</p>
+          <h2>Experience the Island Beyond the View</h2>
+          <p>Connect with Sri Lanka through ancient traditions, vibrant flavors and practical local travel knowledge.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-landmark" aria-hidden="true"></i></div>
+            <h3>Sri Lankan Culture</h3>
+            <p>Experience ancient traditions, vibrant festivals and the warm hospitality of Sri Lanka.</p>
+            <a href="#about" class="text-link">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <img src="https://kimi-web-img.kimi.ai/img/ceylonroute.com/e9132f09bd28eb86590ee516a27f2991fb137887.jpg" alt="Sigiriya at sunset with Sri Lankan flags" loading="lazy">
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-bowl-food" aria-hidden="true"></i></div>
+            <h3>Delicious Sri Lankan Food</h3>
+            <p>From spicy curries to fresh seafood, taste the authentic flavors of the island.</p>
+            <a href="#travel-tips" class="text-link">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <img src="https://kimi-web-img.kimi.ai/img/api.photon.aremedia.net.au/1711071692862e7683ab680a896cb62ae1a3f80e.jpg" alt="Sri Lankan hoppers, curries and sambol dishes" loading="lazy">
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon"><i class="fa-solid fa-route" aria-hidden="true"></i></div>
+            <h3>Travel Tips</h3>
+            <p>Useful information about weather, transport, safety and planning your journey.</p>
+            <a href="#travel-tips" class="text-link">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            <img src="https://kimi-web-img.kimi.ai/img/dynamic-media-cdn.tripadvisor.com/f8128f984fc8be1b68f59ed1c943f84dd3a51d06.jpg" alt="Traveler enjoying a scenic Sri Lankan train journey" loading="lazy">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>Postcards from Sri Lanka</h2>
+          <p>A visual journey through ancient kingdoms, tea country, golden coastlines and wild national parks.</p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="gallery-item tall reveal" data-caption="Sigiriya Rock Fortress"><img src="https://kimi-web-img.kimi.ai/img/media.tacdn.com/900d36dea9814c1fc4d07e9a7878b49796e88196.jpg" alt="Aerial view of Sigiriya Rock Fortress" loading="lazy"><span>Sigiriya</span></button>
+          <button class="gallery-item reveal" data-caption="Ella’s lush mountain railway"><img src="https://kimi-web-img.kimi.ai/img/static.globevoyaging.com/935311dffc304d3c236046718159cee2a0500c5b.webp" alt="Train through lush Ella tea country" loading="lazy"><span>Ella</span></button>
+          <button class="gallery-item reveal" data-caption="Golden palms at Mirissa"><img src="https://kimi-web-img.kimi.ai/img/i0.wp.com/81a5068a23cabc5657236fb7907cb3be48ffcfd2.jpg" alt="Palm trees above the turquoise water at Mirissa" loading="lazy"><span>Mirissa Beach</span></button>
+          <button class="gallery-item reveal" data-caption="Tea estates and waterfalls"><img src="https://kimi-web-img.kimi.ai/img/www.travelandtourworld.com/46bd8811a466c8a2b8eb27abde297540128fbe54.jpg" alt="Tea plantation with a waterfall in Sri Lanka" loading="lazy"><span>Tea Plantations</span></button>
+          <button class="gallery-item reveal" data-caption="Temple of the Sacred Tooth, Kandy"><img src="https://kimi-web-img.kimi.ai/img/dynamic-media-cdn.tripadvisor.com/d7ab10b3606dd9c10eb4c5907e5efd46574ea3f3.jpg" alt="Temple of the Sacred Tooth Relic beside Kandy Lake" loading="lazy"><span>Kandy</span></button>
+          <button class="gallery-item wide reveal" data-caption="Galle Fort lighthouse at sunset"><img src="https://kimi-web-img.kimi.ai/img/media-cdn.tripadvisor.com/b87bdfbcf8bc246cbfa0b02951aebc9258d17e15.jpg" alt="Galle Fort lighthouse at sunset" loading="lazy"><span>Galle Fort</span></button>
+          <button class="gallery-item reveal" data-caption="Highland waterfall country"><img src="https://kimi-web-img.kimi.ai/img/www.remotelands.com/c449d289b54d1e32fedae07095f7924cbcb1e501.jpg" alt="Tall waterfall pouring through Sri Lanka's central highlands" loading="lazy"><span>Waterfalls</span></button>
+          <button class="gallery-item reveal" data-caption="Leopards in Yala National Park"><img src="https://kimi-web-img.kimi.ai/img/www.bluelankatours.com/7b87721f287563b459999ab6d2b4da89074c8d62.jpg" alt="Two leopards resting in Yala National Park" loading="lazy"><span>Wildlife</span></button>
+          <button class="gallery-item reveal" data-caption="Sri Lanka’s scenic hill-country train"><img src="https://kimi-web-img.kimi.ai/img/cdn.kimkim.com/586bbe94f8444c43f9ddd82c829197e2eba4886c.jpg" alt="Blue train curving through Sri Lankan tea fields" loading="lazy"><span>Hill Train</span></button>
+          <button class="gallery-item reveal" data-caption="Authentic Sri Lankan hoppers and curry"><img src="https://kimi-web-img.kimi.ai/img/api.photon.aremedia.net.au/1711071692862e7683ab680a896cb62ae1a3f80e.jpg" alt="Traditional Sri Lankan hoppers, egg hopper and curry" loading="lazy"><span>Local Food</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-image reveal">
+          <img src="https://kimi-web-img.kimi.ai/img/ceylonroute.com/e9132f09bd28eb86590ee516a27f2991fb137887.jpg" alt="Sigiriya rock glowing at sunset above tropical forest" loading="lazy">
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">About Sri Lanka</p>
+          <h2>Discover the Pearl of the Indian Ocean</h2>
+          <p>Sri Lanka is a tropical island famous for its beautiful beaches, ancient heritage, lush mountains, wildlife, tea plantations and welcoming culture. In one journey you can climb a legendary rock fortress, watch leopards on safari, wander colonial forts, sip fresh Ceylon tea and end the day beside the Indian Ocean.</p>
+          <p>Compact, diverse and rich in tradition, Sri Lanka offers a rare blend of relaxation, culture, nature and adventure — all within a single unforgettable island.</p>
+          <div class="about-stats" aria-label="Sri Lanka travel highlights">
+            <div><strong>8</strong><span>UNESCO Sites</span></div>
+            <div><strong>26</strong><span>National Parks</span></div>
+            <div><strong>1,340km</strong><span>Coastline</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tips-section" id="travel-tips">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Practical Guide</p>
+          <h2>Essential Travel Tips</h2>
+          <p>Plan confidently with these simple, useful tips for a smooth Sri Lankan journey.</p>
+        </div>
+
+        <div class="tips-grid">
+          <article class="tip-card reveal"><i class="fa-solid fa-calendar-days" aria-hidden="true"></i><h3>Best time to visit</h3><p>December to April is ideal for the west and south coasts, while May to September is best for the east coast and cultural triangle.</p></article>
+          <article class="tip-card reveal"><i class="fa-solid fa-train" aria-hidden="true"></i><h3>Getting around Sri Lanka</h3><p>Use trains for scenic hill-country routes, private drivers for flexibility and tuk-tuks for short city trips.</p></article>
+          <article class="tip-card reveal"><i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i><h3>Currency</h3><p>The Sri Lankan Rupee (LKR) is the local currency. Cards are common in cities, but keep cash for markets and rural areas.</p></article>
+          <article class="tip-card reveal"><i class="fa-solid fa-cloud-sun" aria-hidden="true"></i><h3>Weather</h3><p>Sri Lanka is warm year-round. Pack light clothing, rain protection for hill country and modest attire for temples.</p></article>
+          <article class="tip-card reveal"><i class="fa-solid fa-place-of-worship" aria-hidden="true"></i><h3>Local etiquette</h3><p>Dress respectfully at religious sites, remove shoes before entering temples and ask before photographing people.</p></article>
+          <article class="tip-card reveal"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i><h3>Safety tips</h3><p>Sri Lanka is generally welcoming to travelers. Stay hydrated, use sunscreen, secure valuables and follow local guidance.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Start Your Sri Lankan Adventure</h2>
+          <p>Tell us what kind of island experience you dream about, and we’ll help you shape the perfect route.</p>
+
+          <div class="contact-info">
+            <a href="mailto:hello@welcometosrilanka.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> hello@welcometosrilanka.com</a>
+            <a href="tel:+94123456789"><i class="fa-solid fa-phone" aria-hidden="true"></i> +94 12 345 6789</a>
+            <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Colombo, Sri Lanka</span>
+          </div>
+
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name">
+              <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <small class="error-message"></small>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="destination">Destination</label>
+            <select id="destination" name="destination">
+              <option value="">Select a destination</option>
+              <option>Sigiriya</option>
+              <option>Ella</option>
+              <option>Kandy</option>
+              <option>Nuwara Eliya</option>
+              <option>Mirissa</option>
+              <option>Galle</option>
+              <option>Yala National Park</option>
+              <option>Not sure yet</option>
+            </select>
+            <small class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your dream Sri Lankan trip..."></textarea>
+            <small class="error-message"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="footer-brand">Welcome to Sri Lanka</a>
+        <p class="footer-tagline">Explore. Experience. Remember.</p>
+        <div class="social-links footer-social" aria-label="Social media links">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#culture-food">Culture &amp; Food</a>
+        <a href="#travel-tips">Travel Tips</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="footer-bottom">© 2026 Welcome to Sri Lanka. All rights reserved.</div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up" aria-hidden="true"></i></button>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+    <figure>
+      <img id="lightboxImage" src="" alt="Gallery image preview">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
